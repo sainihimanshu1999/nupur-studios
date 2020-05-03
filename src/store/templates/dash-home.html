@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<title>Nupur Studios</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="{% static 'dashboard/css/style.css'%}">
+<link rel="stylesheet" href="{% static 'dashboard/css/main-color.css'%}" id="colors">
+
+</head>
+
+<body>
+    {% include "header.html" %}
+    {% block content %}
+    {% endblock content %}
+    {% include "scripts2.html" %}
+</body>
+</html>
