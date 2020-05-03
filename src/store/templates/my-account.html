@@ -1,0 +1,380 @@
+{% extends "home.html" %}
+{% load static %}
+{% block content %}
+    <!-- HEADER START HERE -->
+    <header class="header-area">
+        <!-- Header Top Start -->
+        <div class="header-top hidden-xs hidden-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="n-sticker">
+                            <div id="sticker-item" class="ticker">
+                                <ul>
+                                    <li>Dotbike-Bicycle eCommerce Wordporess Theme Coming soon....</li>
+                                    <li> Lorem ipsum dolor sit loro</li>
+                                    <li> We ready to help from pureheart.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="h-phone">
+                            <p>Need urgent help? Call now : 123-234-567-000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header Top End -->
+
+        <!-- USER AREA START -->
+        <div class="user-board-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2  hidden-sm ">
+                        <div class="logo hidden-xs">
+                            <a href="index.html"><img src="{% static 'images/logo.png' %}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-7  hidden-xs">
+                        <div class="user-menu">
+                            <nav>
+                                <ul id="nav">
+                                    <li><a href="about.html">About us</a>
+                                    </li>
+                                    <li><a href="#">Pricing</a>
+                                    </li>
+                                    <li><a href="blog.html">Blog</a>
+                                    </li>
+                                    <li><a href="#">Help & Support</a>
+                                    </li>
+                                    <li><a href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Userboard Start Here -->
+                    <div class="col-md-4 col-sm-5 col-xs-12 no-padding">
+                        <div class="userboard">
+                            <ul class="board-item">
+                                <li class="price-cart"><a href="#"><i class="fa fa-shopping-cart"></i> <span>0</span></a>
+                                    <ul class="cart-details">
+                                        <li>
+                                            <div class="cart-img">
+                                                <img alt="" src="{% static 'images/product/item2.jpg' %}">
+                                            </div>
+                                            <div class="cart-info">
+                                                <h4><a href="#">cart heading here</a></h4>
+                                                <span>$30.00</span>
+                                            </div>
+                                            <div class="cart-del">
+                                                <a href="#"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="cart-img">
+                                                <img alt="" src="{% static 'images/product/item11.jpg' %}">
+                                            </div>
+                                            <div class="cart-info">
+                                                <h4><a href="#">cart heading here</a></h4>
+                                                <span>$30.00</span>
+                                            </div>
+                                            <div class="cart-del">
+                                                <a href="#"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="cart-img">
+                                                <img alt="" src="{% static 'images/product/item2.jpg' %}">
+                                            </div>
+                                            <div class="cart-info">
+                                                <h4><a href="#">cart heading here</a></h4>
+                                                <span>$30.00</span>
+                                            </div>
+                                            <div class="cart-del">
+                                                <a href="#"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>Total Price</h5>
+                                            <p><span>$</span>90</p>
+                                        </li>
+                                        <li><a class="btn-filled pull-left" href="cart.html">go to cart</a>
+                                            <a class="btn-filled pull-right" href="checkout.html">check out</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="my-account.html"><i class="fa fa-user-plus"></i>Create an Account</a></li>
+                                <li><button class="btn-filled" type="button" data-toggle="modal" data-target="#storola-modal"><i class="fa fa-user"></i> login</button></li>
+                                <!-- Modal -->
+                                <div class="modal fade" id="storola-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <div class="modal-logo">
+                                                    <a href="#"><img src="{% static 'images/logo.png' %}" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h2>Great You are Here</h2>
+                                                <form action="#">
+                                                    <div class="form-group">
+                                                        <label>User Name</label>
+                                                        <input type="text">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Password</label>
+                                                        <input type="password">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button class="btn-filled">log in</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal End -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- USER AREA END -->
+
+        <!-- MAIN MENU AREA START -->
+        <div class="main-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-menu">
+                            <nav>
+                                <ul id="nav">
+                                    <li><a href="#"><i class="fa fa-home"></i></a></li>
+                                    <li><a href="product.html">All Products</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Wordpress themes</a>
+                                            </li>
+                                            <li><a href="#">HTML Templates</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Corporate</a>
+                                                    </li>
+                                                    <li><a href="#">Charity</a>
+                                                    </li>
+                                                    <li><a href="#">Events</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">PSD templates</a>
+                                            </li>
+                                            <li><a href="#">Print items</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="mega-menu">
+                                            <li>
+                                                <a href="index.html">Home-V1</a>
+                                                <a href="home-2.html">Home-V2</a>
+                                                <a href="home-3.html">Home-V3</a>
+                                                <a href="about.html">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="product.html">Product list</a>
+                                                <a href="product-details.html">Product details</a>
+                                                <a href="cart.html">Cart</a>
+                                                <a href="checkout.html">Checkout</a>
+                                            </li>
+                                            <li>
+                                                <a href="blog.html">Blog Page</a>
+                                                <a href="single-blog.html">Single Blog</a>
+                                                <a href="faq.html">FAQ page</a>
+                                                <a href="contact.html">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="my-account.html">My account</a>
+                                                <a href="coming-soon.html">Coming Soon</a>
+                                                <a href="404.html">404 Page</a>
+                                                
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Wordpress themes</a>
+                                    </li>
+                                    <li><a href="#">HTML Templates</a>
+                                    </li>
+                                    <li><a href="#">PSD templates</a>
+                                    </li>
+                                    <li><a href="#">Print items</a>
+                                    </li>
+                                    <li><a href="#">freebee</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- Menu Item End -->
+                            <form class="search-menu">
+                                <input type="search" placeholder="Search Items">
+                                <button><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOBILE-MENU-AREA START -->
+        <div class="mobile-menu-area">
+            <div class="mobile-menu">
+                <div class="m-logo">
+                    <a href="#"><img src="{% static 'images/logo.png' %}" alt="">
+                    </a>
+                </div>
+                <nav id="dropdown">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-home"></i></a></li>
+                        <li><a href="product.html">All Products</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Wordpress themes</a>
+                                </li>
+                                <li><a href="#">HTML Templates</a>
+                                </li>
+                                <li><a href="#">PSD templates</a>
+                                </li>
+                                <li><a href="#">Print items</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Pages</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <a href="index.html">Home-V1</a>
+                                    <a href="home-2.html">Home-V2</a>
+                                    <a href="home-3.html">Home-V3</a>
+                                    <a href="about.html">About us</a>
+                                </li>
+                                <li>
+                                    <a href="product.html">Product list</a>
+                                    <a href="product-details.html">Product details</a>
+                                    <a href="cart.html">Cart</a>
+                                    <a href="checkout.html">Checkout</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">Blog Page</a>
+                                    <a href="single-blog.html">Single Blog</a>
+                                    <a href="faq.html">FAQ page</a>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="my-account.html">My account</a>
+                                    <a href="coming-soon.html">Coming Soon</a>
+                                    <a href="404.html">404 Page</a>
+                                    
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Wordpress themes</a>
+                        </li>
+                        <li><a href="#">HTML Templates</a>
+                        </li>
+                        <li><a href="#">PSD templates</a>
+                        </li>
+                        <li><a href="#">Print items</a>
+                        </li>
+                        <li><a href="#">freebee</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- MOBILE-MENU AREA END -->
+    </header>
+    <!-- HEADER END HERE -->
+
+    <!-- ABOUT PROMO START HERE -->
+    <div class="promo-area" style="background-image: url(images/banner/inner-top.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="promo-text">
+                        <h2>MY ACCOUNT</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT PROMO END HERE -->
+
+    <!-- BREADCRUMB START HERE -->
+    <div class="about-breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">Page</li>
+                        <li class="breadcrumb-item active">My account</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BREADCRUMB END HERE -->
+
+    <!-- CONTACT AREA START HERE -->
+    <main class="account-area main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5">
+                    <div class="register-wrap">
+                        <h3>register</h3>
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" name="username" maxlength="150" autofocus="" required="" id="id_username">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" maxlength="254" id="id_email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password1">Password</label>
+                                <input type="password" name="password1" autocomplete="new-password" required="" id="id_password1">
+                            </div>
+                            <div class="form-group">
+                                <label for="password2">Confirm Password</label>
+                                <input type="password" name="password2" autocomplete="new-password" required="" id="id_password2">
+                            </div>
+                            <button class="custom-btn" type="submit" name="Create User" >Register</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2">
+                    <div class="loging-wrap">
+                        <h3>login</h3>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">User Name or Email Address<span class="required">*</span></label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password<span class="required">*</span></label>
+                                <input type="password">
+                            </div>
+                            <div class="form-group form-inline">
+                                <button class="custom-btn red">login</button>
+                                <label class="inline"><input type="checkbox"> Remember me</label>
+                            </div>
+                            <p class="lost-pass"><a href="#">lost Password?</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- CONTACT AREA END HERE -->
+{% endblock content %}

@@ -1,0 +1,6 @@
+<h1>Register Here</h1>
+ <form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button class="btn" type="submit" name="Create User">submit</button>
+ </form>
